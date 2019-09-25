@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigatie opmaak */
+nav {
+    background-color: mediumslateblue;
+}
+
+nav img {
+    min-width: 300px;
+    width: 50vw;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    padding: 5px;
+}
+
+
+nav a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: white;
+    font-weight: 100;
+    padding: 5px;
+    text-align: center;
+    display: block;
+}
+
+nav li a:hover {
+    background-color: hsla(100,0%,0%,0.3);
+}
+
+#zoeken {
+    text-align: center;
+    padding: 5px;
+    
+
+}
+}
+
+nav ul {
+    list-style-type: none;
+
+}
+/* Flex nav */
+@media screen and (min-width: 768px){
+    
+    nav ul {
+        list-style-type: none;
+        display: flex;
+    }
+
+nav li {
+    flex: 1 1 0;
+}
+
+}
+
+/* Einde flex nav */
+
+/* Foodtrucks */
+.box {
+    background-color: hsla(0,0%,75%, 0.3);
+    height: 300px;
+    width: 280px;
+    margin: 10px;
+    border-radius: 30px;;
+}
+
+.box img {
+    height: 180px;
+    width: 270px;
+    padding: 20px;
+    
+}
+
+.box:hover {
+    transform: scale(1.1);
+}
+
+.flexcontainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.beschrijving {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 18px;
+    padding-top: 15px
+    
+}  
+
+container p {
+    width: 280px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    padding: 0px 10px 40px 10px;
+}
+
+container a {
+    text-decoration: none;
+    color: black;
+}
+
+/*begin detailpagina*/
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:flex-start;
+  
+}
+
+
+
+
+.detailbox {
+    height: 500px;
+    min-width: 350px;
+    margin: 40px 10px 10px 10px;
+    background-color: hsla(0,0%,75%, 0.3);
+    border-radius: 20px
+}
+
+#fotobox {
+    border: 1px solid black;
+    border-radius: 20px;
+    background-color: white;
+}
+
+#fotobox img {
+    margin-left: 31px;
+}
+
+#fotobox h2{
+    margin-bottom: 20px;
+}
+
+.detailbox p {
+    width: 350px;
+    text-align: center;
+    padding: 30px;
+}
